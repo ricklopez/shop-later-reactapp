@@ -1,0 +1,19 @@
+.ShopListMain ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+  }
+  
+  .ShopListMain__button-container {
+    max-width: 380px;
+    margin: 0 10px;
+  }
+  
+  .ShopListMain__add-list-button {
+    margin: 0 auto 20px;
+  }
+  .ShopListMain__add-list-button:hover {
+    background-color: gray;
+    color: white;
+  }
+  

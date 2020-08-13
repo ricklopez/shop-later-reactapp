@@ -1,0 +1,45 @@
+.ShopListNav__list {
+    list-style-type: none;
+    margin: 130px 0 0;
+    padding: 0;
+  }
+  
+  .ShopListNav__button-wrapper {
+    margin: 0 0 0 auto;
+    max-width: 180px;
+  }
+  
+  .ShopListNav__add-folder-button {
+    margin: 20px auto;
+  }
+  .ShopListNav__add-folder-button:hover {
+    background-color: gray;
+    color: white;
+  }
+  
+  .ShopListNav__folder-link {
+    background-color: #030f1f;
+    color: #b5b3b3;
+    display: block;
+    font-family: var(--custom-font);
+    font-size: 20px;
+    margin: 0 0 8px auto;
+    max-width: 180px;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  .ShopListNav__folder-link:hover {
+    color: darkgray;
+    cursor: pointer;
+  }
+  .ShopListNav__folder-link.active {
+    background-color: #102541;
+  }
+  
+  .ShopListNav__num-lists {
+    color: #adadad;
+    display: block;
+    float: right;
+    font-size: 10px;
+  }
+  
